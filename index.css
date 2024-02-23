@@ -48,12 +48,10 @@
 }
 
 .register-form:hover{
-    background-color: rgb(103, 247, 103);
+    background-color: rgba(228, 226, 122, 0.762);
 }
 
 .parent-container{
-    /* background: url(./image/ayodhya.jpg) no-repeat;
-    background-size: cover; */
     background-color: rgb(255, 208, 121);
 }
 
