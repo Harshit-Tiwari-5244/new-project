@@ -1,12 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'poppins',sans-serif;
+    font-family: 'poppins', sans-serif;
     box-sizing: border-box;
-    
+
 }
 
-.container{
+.container {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -14,15 +14,25 @@
     height: 140px;
 
 }
-.nav-buttons{
+
+.nav-buttons {
     width: 50%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-    
-.registerbutton{
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(0.8);
+    transition: 0.4s;
+}
+
+.registerbutton {
     width: 25%;
     display: flex;
     align-items: center;
@@ -30,155 +40,183 @@
 
 }
 
-.logo{
+.registerbutton:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.logo {
     width: 25%;
 }
 
-.logo img{
+.logo img {
     height: 100px;
     margin: 22px;
 }
 
-.register-form{
+.register-form {
     background-color: #fab002;
-    color: rgb(0,0,0);
+    color: rgb(0, 0, 0);
     padding: 10px 15px;
     border-radius: 7px;
     cursor: pointer;
 }
 
-.register-form:hover{
+.register-form:hover {
     background-color: rgba(228, 226, 122, 0.762);
 }
 
-.parent-container{
+.parent-container {
     background-color: rgb(255, 208, 121);
 }
 
-.box-container{
+.box-container {
     width: 100%;
     /* background-color: rgb(247, 191, 88); */
     border-radius: 40px;
     display: flex;
     justify-content: center;
-   align-items: center;
+    align-items: center;
 }
 
-.text{
-   width: 50%;
-   padding-left: 10px;
-   text-align: center;
+.text {
+    width: 50%;
+    padding-left: 10px;
+    text-align: center;
 }
 
-h1{
+h1 {
     font-style: italic;
     font-size: xx-large;
-    
+
 }
 
-h3{
+h3 {
     font-style: italic;
 }
 
-p{
+p {
     font-style: italic;
     color: rgb(48, 19, 19);
 }
 
-.image{
+.image {
     display: flex;
     width: 50%;
     margin: 0 auto;
     justify-content: center;
     padding: 10px;
 }
-.box-container img{
+
+.box-container img {
     height: 300px;
     width: 400px;
     border-radius: 100px;
     width: 70%;
-    }
+}
 
-.places{
+.places {
     /* background-color: rgb(247, 191, 88); */
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
 
-.hanumangarhi{
+
+
+.hanumangarhi {
     width: 25%;
     margin-top: 10px;
-   
+
 }
 
-.ramkot{
+.hanumangarhi:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.9s;
+}
+
+.ramkot {
     width: 25%;
     margin-top: 10px;
 }
 
-.nageshwarnath{
+.ramkot:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.9s;
+}
+
+.nageshwarnath {
     width: 25%;
     margin-top: 10px;
 }
 
-h2{
+.nageshwarnath:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.9s;
+}
+
+h2 {
     text-align: center;
 }
-.temple{
+
+.temple {
     display: flex;
     justify-content: center;
 }
 
-.temple img{
+.temple img {
     height: 200px;
     width: 200px;
 }
 
-.contact{
+.contact {
     background-color: white;
     margin: 30px;
 }
 
-.form-heading{
+.form-heading {
     margin: 20px;
 }
 
-form{
+form {
     max-width: 400px;
     margin: 0 auto;
 }
 
-label{
+label {
     display: block;
 }
 
-input{
+input {
     width: 100%;
     padding: 8px;
     margin-bottom: 12px;
     box-sizing: border-box;
 }
 
-textarea{
+
+
+textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 12px;
     box-sizing: border-box;
 }
 
-.submit-form{
+.submit-form {
     background-color: #fab002;
-    color: rgb(0,0,0);
+    color: rgb(0, 0, 0);
     padding: 10px 15px;
     border-radius: 7px;
     cursor: pointer;
 }
 
-.submit-form:hover{
+.submit-form:hover {
     background-color: rgba(228, 226, 122, 0.762);
-
+    transform: scale(1.1);
+    transition: 0.3s;
 }
-
-
 
